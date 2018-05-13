@@ -644,7 +644,7 @@ public class NightDreamActivity extends Activity
     }
 
     @Override
-    public void onRadioInfoDialogClosed()  {
+    public void onRadioInfoDialogDismissed()  {
         nightDreamUI.reconfigure();
     }
 
